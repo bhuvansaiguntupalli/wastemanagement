@@ -1,0 +1,67 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+}
+.navbar{
+    position: static;
+}
+ nav{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    min-height: 5rem;
+}
+nav .form{
+    display: flex;
+}
+nav .form input{
+    width: 2rem;
+}
+nav button{
+    width: 5rem;
+    text-align: center;
+}
+.navcont{
+    display: flex;
+    list-style-type: none;
+    gap: 0.5rem;
+    padding-top: 0.65rem;
+    justify-content: end;
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navcont a{
+    color: black;
+}
+.navcont a:hover{
+    text-decoration: none;
+}
+.navcont li{
+    width: 6rem;
+}
+.container1{
+    background-color: lightblue;
+    width: 97%;
+    margin: auto;
+    margin-top: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1.2rem;
+}
+.icon{
+    width: 3rem;
+    margin: auto;
+}
+.subcont{
+    display: flex;
+}
+.cmain{
+    padding: 1rem;
+}
